@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width:  100%;
+    height: 100vh;
+    background: linear-gradient(45deg,#9195F6,#B7C9F2,#FB88B4);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+@keyframes color {
+    0%,100%{background-position:0% 0%;}
+    50%{background-position:100% 100%;}
+}
